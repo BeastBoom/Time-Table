@@ -1,0 +1,90 @@
+body {
+    background-image: url(images/Time-Table.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top {
+    margin: -30px 300px 0px 300px;
+    background-color: #b6717d;
+    box-shadow: -3px 4px 4px #a64959d1;
+    font-size: 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 1px 5px #a64959d1;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.Mid,.low {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+.centre {
+    text-align: center;
+    font-family: "Poppins", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    text-shadow: 2px 1px 2px rgba(239, 172, 172, 0.655);
+}
+#shadow {
+    box-shadow: 6px 8px 4px rgb(164, 125, 125);
+}
+.Mon {
+    background-color: #ff8a8a;
+    border-radius: 25px;
+    width: 300px;
+}
+.Tue {
+    background-color: #ffc9b9;
+    border-radius: 25px;
+    width: 300px;
+}
+.Wed {
+    background-color: #ff9a7b;
+    border-radius: 25px;
+    width: 300px;
+}
+.Thurs {
+    background-color: #ff5858;
+    border-radius: 25px;
+    width: 300px;
+}
+.Fri {
+    background-color: #bc5769;
+    border-radius: 25px;
+    width: 300px;
+}
+hr {
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    border-radius: 50px;
+    border-color: black;
+    margin-top: -15px;
+    align-items: center;
+}
+span {
+    text-align: right;
+    text-decoration: underline;
+}
+.Midpic {
+    margin: -200px 0px 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Lowpic{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: -200px 0px 0px 0px
+}
